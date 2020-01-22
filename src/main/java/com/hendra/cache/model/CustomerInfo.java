@@ -1,6 +1,8 @@
 package com.hendra.cache.model;
 
-public class CustomerInfo
+import java.io.Serializable;
+
+public class CustomerInfo implements Serializable
 {
     private String userId;
     private String firstName;

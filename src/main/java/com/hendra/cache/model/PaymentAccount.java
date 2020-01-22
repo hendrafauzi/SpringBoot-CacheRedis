@@ -1,8 +1,9 @@
 package com.hendra.cache.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class PaymentAccount
+public class PaymentAccount implements Serializable
 {
     private String paymentId;
     private CustomerInfo customerInfo;
